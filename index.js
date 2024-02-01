@@ -15,7 +15,6 @@ function mostrarAlerta(){
 
 const juego = document.querySelector("#juego");
 juego.addEventListener("click", () => {
-    Swal.fire("SweetAlert2 is working!");
     let numero =
         Math.floor(Math.random()* 10 +1);
         if(numero === 1){
